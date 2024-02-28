@@ -1,0 +1,92 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.home{
+    position: relative;
+}
+
+
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftdiv{
+    margin-left:8% ;
+    margin-right: 2%;
+    width: 50%;
+    padding: 20px;
+}
+
+.rightdiv{
+    width: 30%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.rigthdivcard{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    height: 150px;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about {
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.rigthdivcard:hover{
+    box-shadow: 10px 10px 5px beige;
+}
+
+.facilities{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cardfacility{
+    height: 200px;
+    text-align: center;
+    width:40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.iframe{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: 350px;
+}
+
+.icons{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+    height: 4px;
+    color: black;
+}
+
+.icon{
+    font-size: 30px;
+}

@@ -1,0 +1,62 @@
+.popup{
+    position: fixed;
+    width: 30vw;
+    left: 35vw;
+    height: 55vh;
+    top: 25vh;
+    z-index: 4;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register{
+    font-size: 30px;
+    color: blue;
+}
+
+.name{
+    margin-top: 15px ;
+}
+
+.style{
+    margin-left: 10%;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 16px
+}
+
+.input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none; /* Remove default focus outline */
+}
+
+.input:focus {
+    border: none;
+    border-bottom: 1px solid black; /* Keep the bottom border blue when input is focused */
+}
+
+.submitpopup{
+    font-size: 20px;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+

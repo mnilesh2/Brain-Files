@@ -1,0 +1,63 @@
+.formquery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info{
+    width: 40%;
+   
+    border-radius: 10px;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.formquery {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.formquery img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.formquery p{
+    text-align: center;
+}
+
+.query{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    height: 480px;
+
+}
+
+.query .queryh{
+    text-align: center;
+    font-size: 30px;
+}
+
+textarea{
+outline: none;
+border: none;
+border-bottom: 2px solid blue;
+width: 136px;
+height: 46px;
+}
+
+textarea:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.info1{
+    margin-bottom: 10px;
+}
+
+
+
